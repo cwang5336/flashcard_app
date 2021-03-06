@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scaleX="1"
+    android:scaleY="1"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,23 +13,33 @@
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="@color/purple_200"
         android:gravity="center"
         android:text="Who is the 44th President of the United States?"
-        android:textSize="40sp"
-        android:background="@color/purple_200"
-        />
+        android:textSize="40sp" />
 
     <TextView
-
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="@color/teal_200"
         android:gravity="center"
         android:text="Barack Obama"
         android:textSize="40sp"
         android:visibility="invisible"
-        android:background="@color/teal_200"
-
         />
+
+    <ImageButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:srcCompat="@drawable/ic_add" />
 
 </RelativeLayout>
