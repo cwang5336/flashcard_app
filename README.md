@@ -1,14 +1,12 @@
 ## Lab 2
 
 ### App Description
-`TODO://` Add app description
+`TODO://` In addition to lab 1, this app not have a add button at the lower right side of the screen which lets the user to change the question and answer of the flip card. There is also a back button if they want to go back to the main screen. In addition there is a save button where the inputed values of the user is saved and displayed as the card.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/cwang5336/flashcard_app/blob/main/flashcard_lab2.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ## Required
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
@@ -33,11 +31,9 @@
 `TODO://` this app currently have a question and when clicked on the answer will show. Then when the answer is clicked on it will return to the question. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src= "https://github.com/cwang5336/flashcard_app/blob/main/flashcard_Lab1.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ## Required
 - [x] Create New Project in Android Studio
