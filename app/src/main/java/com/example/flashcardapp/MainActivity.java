@@ -78,9 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 // make sure we don't get an IndexOutOfBoundsError if we are viewing the last indexed card in our list
                 if(currentCardDisplayedIndex >= allFlashcards.size()) {
                     Snackbar.make(flashcardQuestion,
-                            "You've reached the end of the cards, going back to start.",
-                            Snackbar.LENGTH_SHORT)
-                            .show();
+                            "You've reached the end of the cards, going back to start.", Snackbar.LENGTH_SHORT).show();
                     currentCardDisplayedIndex = 0;
                 }
 
@@ -88,12 +86,22 @@ public class MainActivity extends AppCompatActivity {
                 allFlashcards = flashcardDatabase.getAllCards();
                 Flashcard flashcard = allFlashcards.get(currentCardDisplayedIndex);
 
-                ((TextView) findViewById(R.id.flashcard_question)).setText(flashcard.getAnswer());
-                ((TextView) findViewById(R.id.flashcard_answer)).setText(flashcard.getQuestion());
+                ((TextView) findViewById(R.id.flashcard_question)).setText(flashcard.getQuestion());
+                ((TextView) findViewById(R.id.flashcard_answer)).setText(flashcard.getAnswer());
             }
         });
 
-
+        //button to delete a flashcard
+        findViewById(R.id.trashButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if( allFlashcards.size() <= 0) {
+                    Snackbar.make(flashcardQuestion,
+                            "There is nothing to delete!", Snackbar.LENGTH_SHORT).show();
+                }else
+                flashcardDatabase.deleteCard(((TextView) findViewById(R.id.flashcard_question)).getText().toString());
+            }
+        });
 
     }//end of OnCreate()
 

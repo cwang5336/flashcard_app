@@ -55,4 +55,17 @@
         android:scaleY="2.5"
         app:srcCompat="@drawable/ic_next" />
 
+    <ImageButton
+        android:id="@+id/trashButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="560dp"
+        android:background="@android:color/transparent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:srcCompat="@drawable/ic_trash" />
+
 </RelativeLayout>
