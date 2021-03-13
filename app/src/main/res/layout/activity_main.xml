@@ -42,4 +42,17 @@
         android:scaleY="2.5"
         app:srcCompat="@drawable/ic_add" />
 
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="350dp"
+        android:background="@color/white"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:srcCompat="@drawable/ic_next" />
+
 </RelativeLayout>
