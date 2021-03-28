@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
 public class AddCardActivity extends AppCompatActivity {
 
@@ -22,6 +21,7 @@ public class AddCardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(AddCardActivity.this, MainActivity.class);
                 AddCardActivity.this.startActivity(intent);
+                overridePendingTransition(R.anim.right_to_left, R.anim.left_to_right);
             }
         });
 
@@ -43,6 +43,8 @@ public class AddCardActivity extends AppCompatActivity {
                 data.putExtra("string2", answer); // puts another string into the Intent, with the key as 'string2
                 setResult(RESULT_OK, data); // set result code and bundle data for response
                 finish(); // closes this activity and pass data to the original activity that launched this activity
+                //overridePendingTransition(R.anim.left_out, R.anim.left_out);
+                overridePendingTransition(R.anim.right_to_left, R.anim.left_to_right);
             }
         });
 
