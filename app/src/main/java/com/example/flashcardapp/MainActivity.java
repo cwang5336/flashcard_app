@@ -94,7 +94,8 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 // advance our pointer index so we can show the next card
                 currentCardDisplayedIndex++;
-                
+
+                findViewById(R.id.flashcard_question).startAnimation(leftOutAnim);
                 leftOutAnim.setAnimationListener(new Animation.AnimationListener() {
                     @Override
                     public void onAnimationStart(Animation animation) {
