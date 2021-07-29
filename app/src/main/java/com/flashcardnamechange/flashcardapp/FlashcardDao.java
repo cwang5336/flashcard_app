@@ -1,4 +1,4 @@
-package com.example.flashcardapp;
+package com.flashcardnamechange.flashcardapp;
 
 import androidx.room.Dao;
 import androidx.room.Delete;

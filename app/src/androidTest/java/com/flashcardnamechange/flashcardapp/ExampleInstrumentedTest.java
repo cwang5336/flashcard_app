@@ -1,4 +1,4 @@
-package com.example.flashcardapp;
+package com.flashcardnamechange.flashcardapp;
 
 import android.content.Context;
 

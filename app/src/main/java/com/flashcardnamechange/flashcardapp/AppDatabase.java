@@ -1,4 +1,4 @@
-package com.example.flashcardapp;
+package com.flashcardnamechange.flashcardapp;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;

@@ -1,11 +1,10 @@
-package com.example.flashcardapp;
+package com.flashcardnamechange.flashcardapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.Animator;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.Animation;
