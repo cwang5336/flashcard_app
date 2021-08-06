@@ -50,13 +50,13 @@ public class MainActivity extends AppCompatActivity {
                 // get the final radius for the clipping circle
                 float finalRadius = (float) Math.hypot(cx, cy);
                 // create the animator for this view (the start radius is zero)
-                Animator anim = ViewAnimationUtils.createCircularReveal(answerSideView, cx, cy, 0f, finalRadius);
+                //Animator anim = ViewAnimationUtils.createCircularReveal(answerSideView, cx, cy, 0f, finalRadius);
 
                 flashcardQuestion.setVisibility(View.INVISIBLE);
                 flashcardAnswer.setVisibility(View.VISIBLE);
 
-                anim.setDuration(300);
-                anim.start();
+                //anim.setDuration(400);
+                //anim.start();
             }
         });
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //brings user from the front age to add information page by pressing a button
+        //brings user from the front page to add information page by pressing a button
         findViewById(R.id.addButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
                         // this method is called when the animation is finished playing
 
                         flashcardQuestion.startAnimation(rightInAnim);
+
                         // make sure we don't get an IndexOutOfBoundsError if we are viewing the last indexed card in our list
                         if(currentCardDisplayedIndex >= allFlashcards.size()) {
                             Snackbar.make(flashcardQuestion,

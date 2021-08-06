@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogOrSign">
+
+    <Button
+        android:id="@+id/LogInButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="230dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account "
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/LogInButton"
+        />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="Sign Up"
+        android:textSize="10dp"
+        android:layout_below="@id/LogInButton"
+        android:layout_marginTop="4dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"/>
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login.username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Username"
+        android:inputType="textMultiLine"
+        />
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login.password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below ="@id/login.username"
+        android:ems="15"
+        android:inputType="textMultiLine"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"/>
+
+
+</RelativeLayout>
