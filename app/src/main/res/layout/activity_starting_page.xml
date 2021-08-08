@@ -12,10 +12,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start"
+        android:textSize="30dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="150dp"
-        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteX="200dp"
         tools:layout_editor_absoluteY="436dp" />
 
     <TextView
@@ -23,9 +24,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="300dp"
-        android:layout_alignParentBottom="true"
-        android:textSize="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:textSize="50dp"
         android:text="Ready to Study?" />
 
     <Button
@@ -35,5 +36,7 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/light_grey"
         android:layout_alignParentRight="true"
-        android:text="Log In/Sign Up" />
+        android:text="Log In/Sign Up"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"/>
 </RelativeLayout>

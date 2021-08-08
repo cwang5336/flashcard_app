@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".LogOrSign">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/login.username"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:textSize="40dp" />
+
+
     <Button
         android:id="@+id/LogInButton"
         android:layout_width="150dp"
@@ -42,7 +53,7 @@
 
     <EditText
         android:layout_weight="1"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/login.username"
         android:layout_width="wrap_content"

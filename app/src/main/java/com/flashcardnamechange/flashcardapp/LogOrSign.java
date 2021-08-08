@@ -21,6 +21,14 @@ public class LogOrSign extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.SignUpButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LogOrSign.this, SignUpPage.class);
+                LogOrSign.this.startActivityForResult(intent, 100);
+            }
+        });
+
 
     }
 }

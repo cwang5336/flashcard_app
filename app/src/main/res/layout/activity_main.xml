@@ -17,7 +17,7 @@
         android:gravity="center"
         android:text="Who is the 44th President of the United States?"
         android:textSize="42sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"/>
 
@@ -30,7 +30,7 @@
         android:text="Barack Obama"
         android:textSize="42sp"
         android:visibility="invisible"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         />
@@ -69,8 +69,8 @@
         android:layout_alignTop="@+id/flashcard_question"
         android:layout_alignEnd="@+id/flashcard_question"
         android:layout_alignParentRight="false"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="17dp"
         android:background="@android:color/transparent"
         android:scaleX="1.5"
         android:scaleY="1.5"
