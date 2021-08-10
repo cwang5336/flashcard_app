@@ -5,19 +5,19 @@
     android:id="@+id/enterButton"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".startingPage">
+    tools:context=".startingPage"
+    android:backgroundTint="@color/white">
 
     <Button
-        android:id="@+id/startButton"
+        android:id="@+id/LogSignButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start"
-        android:textSize="30dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="150dp"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="436dp" />
+        android:backgroundTint="@color/white"
+        android:textColor="@color/light_grey"
+        android:layout_alignParentRight="true"
+        android:text="Log In/Sign Up"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"/>
 
     <TextView
         android:id="@+id/textView"
@@ -30,13 +30,16 @@
         android:text="Ready to Study?" />
 
     <Button
-        android:id="@+id/LogSignButton"
+        android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/light_grey"
-        android:layout_alignParentRight="true"
-        android:text="Log In/Sign Up"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="15dp"/>
+        android:text="Start"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="436dp"
+        android:textColor="@color/white"/>
+
 </RelativeLayout>

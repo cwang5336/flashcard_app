@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpPage">
+    tools:context=".SignUpPage"
+    android:backgroundTint="@color/white">
 
 
     <TextView
@@ -88,7 +89,8 @@
         android:layout_centerHorizontal="true"
         android:textSize="20dp"
         android:layout_below="@id/SignUp.RePassword"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/button3"
@@ -98,7 +100,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginBottom="5dp"/>
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"/>
 
 
 </RelativeLayout>
