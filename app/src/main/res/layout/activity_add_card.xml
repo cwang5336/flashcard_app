@@ -7,34 +7,6 @@
     tools:context=".AddCardActivity"
     android:backgroundTint="@color/white">
 
-
-    <ImageButton
-        android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/white"
-        android:scaleX="2.5"
-        android:scaleY="2.5"
-        app:srcCompat="@drawable/ic_backbutton" />
-
-    <ImageButton
-        android:id="@+id/saveButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/white"
-        android:scaleX="2.5"
-        android:scaleY="2.5"
-        app:srcCompat="@drawable/ic_savebutton" />
-
-
     <EditText
         android:layout_weight="1"
         android:layout_marginTop="50dp"
@@ -62,5 +34,30 @@
         android:inputType="textMultiLine"
         />
 
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:srcCompat="@drawable/ic_backbutton" />
+
+    <ImageButton
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:srcCompat="@drawable/ic_savebutton" />
 
 </RelativeLayout>

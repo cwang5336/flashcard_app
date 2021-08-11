@@ -9,8 +9,21 @@
     tools:context=".MainActivity"
     android:backgroundTint="@color/white">
 
-    <TextView
+    <ImageButton
+        android:id="@+id/trashButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/flashcard_question"
+        android:layout_alignEnd="@+id/flashcard_question"
+        android:layout_alignParentRight="false"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="17dp"
+        android:background="@android:color/transparent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:srcCompat="@drawable/ic_trash" />
 
+    <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="210dp"
@@ -39,19 +52,6 @@
         />
 
     <ImageButton
-        android:id="@+id/addButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/white"
-        android:scaleX="2.5"
-        android:scaleY="2.5"
-        app:srcCompat="@drawable/ic_add" />
-
-    <ImageButton
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -66,17 +66,16 @@
         app:srcCompat="@drawable/ic_next" />
 
     <ImageButton
-        android:id="@+id/trashButton"
+        android:id="@+id/addButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/flashcard_question"
-        android:layout_alignEnd="@+id/flashcard_question"
-        android:layout_alignParentRight="false"
-        android:layout_marginRight="17dp"
-        android:layout_marginTop="17dp"
-        android:background="@android:color/transparent"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
-        app:srcCompat="@drawable/ic_trash" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:srcCompat="@drawable/ic_add" />
 
 </RelativeLayout>
